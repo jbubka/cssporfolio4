@@ -1,0 +1,63 @@
+.container {
+    height: 600px;
+    width: 600px;
+    border: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    background-color: yellow ;
+    border: 2px solid white;
+box-sizing: border-box;
+position: relative;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-gray {
+    background-color: gray;
+}
+
+.bg-violent {
+    background-color: blueviolet;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+.bg-black {
+    background-color: black;
+}
